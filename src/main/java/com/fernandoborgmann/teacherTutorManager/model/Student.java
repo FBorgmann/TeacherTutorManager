@@ -20,7 +20,7 @@ public class Student {
     @Column(nullable = false)
     private String name;
 
-    @Column(nullable = true)
+    @Column
     private String email;
 
     private String level;
